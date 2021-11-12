@@ -10,6 +10,6 @@ CREATE TABLE `sap-planned-independent-requirement`
     `PlndIndepRqmtPeriodStartDate` date DEFAULT NULL,
     `PlannedQuantity`       float(13) DEFAULT NULL,
     `LastChangeDate`        date DEFAULT NULL,
-    PRIMARY KEY (`Product`, `Plant`, `MRPArea`, `PlndIndepRqmtInternalID`),
+    PRIMARY KEY (`Product`, `Plant`, `MRPArea`, `PlndIndepRqmtInternalID`)
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4;
