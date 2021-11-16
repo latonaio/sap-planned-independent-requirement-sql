@@ -13,7 +13,7 @@ https://api.sap.com/api/OP_API_PLND_INDEP_RQMT_SRV_0001/overview
 
 sap-planned-independent-requirement-sql には、sqlの設定ファイルとして、以下のファイルが含まれています。  
 
-* sap-planned-independent-requirement.sql（SAP 計画独立所要量）
+* sap-planned-independent-requirement-sql-by-product.sql（SAP 計画独立所要量 - 品目に対する計画独立所要量）
 
 
 ## MySQLのセットアップ / Kubernetesの設定 / SQLテーブルの作成方法
